@@ -15,3 +15,8 @@ app.get('/', (req, res) => {
     console.log(req)
     res.send({express: 'Connected to express!', results: "made it"})
 })
+
+app.get('/network-design',  (req, res) => {
+    console.log(req)
+    res.send("I love learning about network design!")
+});
