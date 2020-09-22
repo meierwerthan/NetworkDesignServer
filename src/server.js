@@ -18,5 +18,5 @@ app.get('/', (req, res) => {
 
 app.get('/network-design',  (req, res) => {
     console.log(req)
-    res.send("I love learning about network design!")
+    res.send({message: "I love learning about network design!"})
 });
