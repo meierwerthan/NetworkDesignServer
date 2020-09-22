@@ -20,3 +20,8 @@ app.get('/network-design',  (req, res) => {
     console.log(req)
     res.send({message: "I love learning about network design!"})
 });
+
+app.get('/thomas',  (req, res) => {
+    console.log(req)
+    res.send({message: "thomas loves theo!"})
+});
